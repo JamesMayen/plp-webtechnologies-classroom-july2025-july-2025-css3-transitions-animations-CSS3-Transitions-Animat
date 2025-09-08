@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMAL Interactive Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to AMAL</h1>
+    <p>Tech-based solutions empowering youth & community</p>
+  </header>
+
+  <!-- Button that animates a box -->
+  <section class="demo">
+    <h2>Box Animation</h2>
+    <button id="animateBoxBtn">Animate Box</button>
+    <div id="box"></div>
+  </section>
+
+  <!-- Card flip animation -->
+  <section class="demo">
+    <h2>Card Flip</h2>
+    <div class="card">
+      <div class="card-inner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Loading animation -->
+  <section class="demo">
+    <h2>Loading Animation</h2>
+    <button id="toggleLoaderBtn">Start/Stop Loader</button>
+    <div class="loader hidden"></div>
+  </section>
+
+  <!-- Popup/Modal -->
+  <section class="demo">
+    <h2>Popup Modal</h2>
+    <button id="openModalBtn">Open Modal</button>
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <p>This is the AMAL popup modal with smooth animation!</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
